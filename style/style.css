@@ -19,16 +19,32 @@ nav{
     background-color: #385170;
 
 }
+nav ul{
+    display: flex;
+    height: 50px;
+    gap: 3%;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #9bc7fd;
+}
 .MainPage{
-    background: url(../assets/Alinurzadabg/AlinurzadabgName.jpg);
-    height: 400px;
-    background-size: contain;
-    background-position: center;
+    background: url(../assets/Alinurzadabg/Alinurzadabgv2.png);
+    height: 650px;
+    background-size: cover;
+    background-position:center;
+    background-position-y: bottom;
     background-repeat: no-repeat;
 }
 .MainPage{
     display: flex;
-    gap: 40px;
+    gap: 20px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -80,7 +96,41 @@ nav{
     align-items: center;
 }
 .About-Container .Information{
-    width: 60%;
-    word-spacing: 10px;
+    width: 50%;
+    word-spacing: 5px;
     
+    
+}
+
+@media (min-width:1200px){
+
+}
+
+@media (max-width:1199px) and (min-width:992px){
+
+}
+@media(min-width:768px) and (max-width:991px){
+nav ul{
+    gap: 15%;
+}
+}
+@media (min-width:577px) and (max-width : 767px){
+nav ul{
+    gap:12%;
+}
+}
+@media (max-width:576px){
+    .MainPage{
+        height: 850px;
+    }
+
+    .About-Container .Information{
+        width: 70%;
+        word-spacing: 5px;
+        
+        
+    }
+    nav ul{
+        gap: 7%;
+    }
 }
