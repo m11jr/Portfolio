@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+margin: 0px;
+    box-sizing: border-box;
+}
+h2{
+    font-family: "Bodoni Moda";
+    font-weight: 90;
+    text-align: center;
+}
+body{
+    background-image: url(../assets/Alinurzadabg/1.png);
+    background-attachment: fixed;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: #385170;
+
+}
+.MainPage{
+    background: url(../assets/Alinurzadabg/AlinurzadabgName.jpg);
+    height: 400px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.MainPage{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.MainPage .Name h1{
+    text-align: center;
+    font-size: 4.5em;
+    font-family: "Bodoni Moda", serif;
+    font-weight: 600;
+
+}
+.MainPage .Name p{
+    font-size: 1.5em;
+    text-align: center;
+    font-family: "Italiana", sans-serif;
+    font-weight: 600;
+}
+
+
+.MainPage .Social img{
+    width: 30px;
+}
+.MainPage .Social ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
+    list-style-type: none;
+}
+
+.About{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+.About img{
+    width: 200px;
+    border-radius: 75%;
+}
+.About-Container{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.About-Container .Information{
+    width: 60%;
+    word-spacing: 10px;
+    
+}
